@@ -76,5 +76,8 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world!
+  navigation:
+  - link_text: Google
+    link_url: https://www.google.com
 
 ---
