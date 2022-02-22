@@ -13,24 +13,22 @@ page_sections:
     link_text: Home
   - link_url: "#"
     link_text: Features
-  - link_url: "#"
-    link_text: Pricing
-  - link_text: Test Page
+  - link_url: "/test-page"
+    link_text: Test Page
   cta:
     link_url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
     link_text: Download
     open_in_new_tab: true
 - template: hero-banner-w-image
   block: hero-2
-  headline: uBuild <br><strong>design blocks</strong>
-  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
-    content manager.
+  headline: <br><strong>Engage</strong> your staff with a new video platform.
+  content: When companies are looking to create a <strong>Culture of Engagement</strong>, video lies at the core.
   cta:
     enabled: true
-    link_url: https://github.com/forestryio/ubuild-jekyll
-    link_text: 'See on GitHub '
+    link_url: https://demo.development.brio.viddler.com
+    link_text: 'See it in action '
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: "/uploads/marketers.png"
     alt_text: Product Shot
   background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: content-feature
@@ -51,8 +49,20 @@ page_sections:
   content: Each block comes with custom Front Matter that can easily be edited in
     Forestry's UI.
   media:
-    image: "/uploads/2018/06/21/edit.gif"
+    image: "/uploads/engage.gif"
     alt_text: Customize Blocks
+
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
+    edits throughout your new site</span>
+  content: Each block comes with custom Front Matter that can easily be edited in
+    Forestry's UI.
+  media:
+    image: "/uploads/yellow_lady.jpeg"
+    alt_text: Customize Blocks
+
 - template: 1-column-text
   block: one-column-1
   headline: 16 Fully Responsive Design Blocks
