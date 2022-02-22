@@ -79,5 +79,6 @@ page_sections:
   navigation:
   - link_text: Google
     link_url: https://www.google.com
+  logo: https://commons.wikimedia.org/wiki/Category:Google_SVG_logos#/media/File:Google_%22G%22_Logo.svg
 
 ---
